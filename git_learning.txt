@@ -1,3 +1,4 @@
+git init #初始化该文件夹为git目录  
 git add a.txt #把在工作区增加新的文件暂存区（stage）
 git commit -m "creat a.txt" #提交a.txt文件提交到当前的分支
 git diff #查看被修改的具体内容
