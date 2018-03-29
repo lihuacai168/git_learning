@@ -33,6 +33,11 @@ git reset --hard f91ed98 #回退到指定的版本
 
 ```
 git remote add origin git@github.com:lihuacai168/docker.git #关联远程仓库，origin是远程仓库名字在本地的名字,lihuacai168是github用户名，docker.git远程仓库的真是名字
+git fetch #从远程获取最新代码，但不切换
+git branch 查看当前HEAD指向的分支
+git branch a #创建a分支
+git checkout a#切换到a分支
+git checkout af34sdl#切换到af34sdl这次提交的代码
 git pull origin master --allow-unrelated-histories #解决refusing to merge unrelated histories
 git push origin master #本地的master分支推送到远程的master分支，因为两者已经关联，才能这样操作。实际上是 git push origin master:master
 ```
