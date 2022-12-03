@@ -41,3 +41,16 @@ git checkout af34sdl#切换到af34sdl这次提交的代码
 git pull origin master --allow-unrelated-histories #解决refusing to merge unrelated histories
 git push origin master #本地的master分支推送到远程的master分支，因为两者已经关联，才能这样操作。实际上是 git push origin master:master
 ```
+
+
+# git rebase
+- 从master新建feat-1分支
+- feat-1分支提交一个commit
+- feat-2分支提交一个commit, pull request, rebase and merge并且到master
+- feat-1分支提交一个commit
+- master分支update
+- feat-1分支上rebase feat-1 onto master
+- pull request, rebase and merge并且到master
+- 最终feat-1和feat-2分支的每一个commit都会被复制一份到master上，commit id会变
+- ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031310201.png)
+- ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031406370.png)
