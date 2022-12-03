@@ -70,3 +70,6 @@ git push origin master #本地的master分支推送到远程的master分支，�
 - > pull request, merge并且到master  
   > 在master上会产生一个Merge pull request #5的commit
   > ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031443990.png)
+
+# diff-rebase-merge
+- ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031453976.png)
