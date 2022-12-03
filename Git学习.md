@@ -54,3 +54,19 @@ git push origin master #本地的master分支推送到远程的master分支，�
 - 最终feat-1和feat-2分支的每一个commit都会被复制一份到master上，commit id会变
 - ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031310201.png)
 - ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031406370.png)
+
+
+# git merge
+- 从master新建feat-3分支
+- feat-3分支提交一个commit
+- > feat-4分支提交一个commit, pull request, merge并且到master  
+  > 在master上会产生一个Merge pull request #4的commit
+  > ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031434164.png)
+- feat-3分支提交一个commit
+- master分支update
+- > merge master to feat-3  
+  > 在feat-3上会产生一个Merge branch 'master' into feat-3的commit
+  > ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031441847.png)
+- > pull request, merge并且到master  
+  > 在master上会产生一个Merge pull request #5的commit
+  > ![](https://cdn.jsdelivr.net/gh/lihuacai168/images/img/202212031443990.png)
